@@ -1,0 +1,68 @@
+D:\Projectes\SuperCenter\Voice\VoiceDispatcher\v. 1.2.0.1\VoiceDispatcher\obj\Release\VoiceDispatcher.exe
+D:\Projectes\SuperCenter\Voice\VoiceDispatcher\v. 1.2.0.1\VoiceDispatcher\obj\Release\VoiceDispatcher.pdb
+D:\Projectes\SuperCenter\Voice\VoiceDispatcher\v. 1.2.0.1\VoiceDispatcher\bin\Release\VoiceDispatcher.exe
+D:\Projectes\SuperCenter\Voice\VoiceDispatcher\v. 1.2.0.1\VoiceDispatcher\bin\Release\VoiceDispatcher.pdb
+D:\Projectes\SuperCenter\Voice\VoiceDispatcher\v. 1.2.0.1\VoiceDispatcher\obj\Release\ResolveAssemblyReference.cache
+D:\Projectes\SuperCenter\Voice\VoiceDispatcher\v. 1.2.0.1\VoiceDispatcher\obj\Release\VoiceDispatcher.FAcerca.resources
+D:\Projectes\SuperCenter\Voice\VoiceDispatcher\v. 1.2.0.1\VoiceDispatcher\obj\Release\VoiceDispatcher.FConfiguracion.resources
+D:\Projectes\SuperCenter\Voice\VoiceDispatcher\v. 1.2.0.1\VoiceDispatcher\obj\Release\VoiceDispatcher.FMain.resources
+D:\Projectes\SuperCenter\Voice\VoiceDispatcher\v. 1.2.0.1\VoiceDispatcher\obj\Release\VoiceDispatcher.Properties.Resources.resources
+D:\Projectes\SuperCenter\Voice\VoiceDispatcher\v. 1.2.0.1\VoiceDispatcher\obj\Release\VoiceDispatcher.csproj.GenerateResource.Cache
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\VoiceDispatcher\obj\Release\VoiceDispatcher.exe
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\VoiceDispatcher\obj\Release\VoiceDispatcher.pdb
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\VoiceDispatcher\obj\Release\ResolveAssemblyReference.cache
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\VoiceDispatcher\obj\Release\VoiceDispatcher.FAcerca.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\VoiceDispatcher\obj\Release\VoiceDispatcher.FConfiguracion.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\VoiceDispatcher\obj\Release\VoiceDispatcher.FMain.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\VoiceDispatcher\obj\Release\VoiceDispatcher.Properties.Resources.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\VoiceDispatcher\obj\Release\VoiceDispatcher.csproj.GenerateResource.Cache
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\VoiceDispatcher\bin\Release\VoiceDispatcher.exe
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\VoiceDispatcher\bin\Release\VoiceDispatcher.pdb
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Release\VoiceDispatcher.exe
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Release\VoiceDispatcher.pdb
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Debug\VoiceDispatcher.exe
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Debug\VoiceDispatcher.pdb
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\bin\Debug\VoiceDispatcher.exe
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\bin\Debug\VoiceDispatcher.pdb
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Debug\ResolveAssemblyReference.cache
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Debug\VoiceDispatcher.FAcerca.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Debug\VoiceDispatcher.FConfiguracion.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Debug\VoiceDispatcher.FMain.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Debug\VoiceDispatcher.Properties.Resources.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Debug\VoiceDispatcher.csproj.GenerateResource.Cache
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\bin\Release\VoiceDispatcher.exe
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\bin\Release\VoiceDispatcher.pdb
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Release\ResolveAssemblyReference.cache
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Release\VoiceDispatcher.FAcerca.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Release\VoiceDispatcher.FConfiguracion.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Release\VoiceDispatcher.FMain.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Release\VoiceDispatcher.Properties.Resources.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 1.0.0.0\obj\Release\VoiceDispatcher.csproj.GenerateResource.Cache
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Release\VoiceDispatcher.exe
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Release\VoiceDispatcher.pdb
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\bin\Release\VoiceDispatcher.exe
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\bin\Release\VoiceDispatcher.pdb
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Release\ResolveAssemblyReference.cache
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Release\VoiceDispatcher.FAcerca.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Release\VoiceDispatcher.FConfiguracion.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Release\VoiceDispatcher.FMain.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Release\VoiceDispatcher.Properties.Resources.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Release\VoiceDispatcher.csproj.GenerateResource.Cache
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Debug\VoiceDispatcher.exe
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Debug\VoiceDispatcher.pdb
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\bin\Debug\VoiceDispatcher.exe
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\bin\Debug\VoiceDispatcher.pdb
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Debug\ResolveAssemblyReference.cache
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Debug\VoiceDispatcher.FAcerca.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Debug\VoiceDispatcher.FConfiguracion.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Debug\VoiceDispatcher.FMain.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Debug\VoiceDispatcher.Properties.Resources.resources
+D:\Projectes\Sony\VoiceDispatcher\v. 2.0.0.0\obj\Debug\VoiceDispatcher.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ferran\Escritorio\v. 2.0.0.0\obj\Release\VoiceDispatcher.exe
+C:\Documents and Settings\Ferran\Escritorio\v. 2.0.0.0\obj\Release\VoiceDispatcher.pdb
+C:\Documents and Settings\Ferran\Escritorio\v. 2.0.0.0\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ferran\Escritorio\v. 2.0.0.0\obj\Release\VoiceDispatcher.FMain.resources
+C:\Documents and Settings\Ferran\Escritorio\v. 2.0.0.0\obj\Release\VoiceDispatcher.Properties.Resources.resources
+C:\Documents and Settings\Ferran\Escritorio\v. 2.0.0.0\obj\Release\VoiceDispatcher.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ferran\Escritorio\v. 2.0.0.0\bin\Release\VoiceDispatcher.exe
+C:\Documents and Settings\Ferran\Escritorio\v. 2.0.0.0\bin\Release\VoiceDispatcher.pdb

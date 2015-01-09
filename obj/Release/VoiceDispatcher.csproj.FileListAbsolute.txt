@@ -1,0 +1,2 @@
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\VoiceDispatcher.exe
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\VoiceDispatcher.pdb

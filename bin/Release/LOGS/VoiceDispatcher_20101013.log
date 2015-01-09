@@ -1,0 +1,22 @@
+INF 11:39:53 Iniciando servicio ...
+INF 11:39:53 ========== Servicio iniciado ==========
+INF 11:45:09 Iniciando servicio ...
+INF 11:45:09 ========== Servicio iniciado ==========
+INF 11:45:09 Servidor socket iniciado en puerto 10000
+INF 11:45:37 Nueva conexión
+ERR 11:46:49 Error al iniciar la nueva conexión socket.Cannot access a disposed object.
+Object name: 'FMain'.
+INF 11:50:52 Iniciando servicio ...
+INF 11:50:52 ========== Servicio iniciado ==========
+INF 11:50:52 Servidor socket iniciado en puerto 10000
+INF 11:51:03 Nueva conexión
+INF 11:52:48 Iniciando servicio ...
+INF 11:52:48 ========== Servicio iniciado ==========
+INF 11:52:48 Servidor socket iniciado en puerto 10000
+INF 11:52:51 Nueva conexión
+INF 11:53:10 Iniciando servicio ...
+INF 11:53:10 ========== Servicio iniciado ==========
+INF 11:53:10 Servidor socket iniciado en puerto 10000
+INF 11:53:11 Nueva conexión
+INF 11:53:31 Nueva conexión
+INF 11:53:32 Nueva conexión
