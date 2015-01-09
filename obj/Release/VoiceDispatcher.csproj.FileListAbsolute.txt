@@ -2,3 +2,5 @@ C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\VoiceDis
 C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\VoiceDispatcher.pdb
 K:\Programacion\PROINFO\Github\Ajusa_PickingPorVoz\obj\Release\VoiceDispatcher.exe
 K:\Programacion\PROINFO\Github\Ajusa_PickingPorVoz\obj\Release\VoiceDispatcher.pdb
+C:\Users\instalador\Documents\Proyectos\Nueva carpeta\Ajusa_PickingPorVoz\obj\Release\VoiceDispatcher.exe
+C:\Users\instalador\Documents\Proyectos\Nueva carpeta\Ajusa_PickingPorVoz\obj\Release\VoiceDispatcher.pdb
