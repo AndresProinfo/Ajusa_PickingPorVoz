@@ -15,7 +15,7 @@ namespace VoiceDispatcher
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new FMain());
-
+            //CReo que esto va aqui
 		}
 	}
 }
