@@ -1,0 +1,11 @@
+Error conecting to server. No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:10000
+Connected.
+Data sended -> [ss]
+Received message -> [Trama Recibida correcectamente: ss]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [dde]
+Received message -> [Trama Recibida correcectamente: dde]
+Server disconnected
+Closed.

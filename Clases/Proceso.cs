@@ -10,7 +10,7 @@ using System.Threading;
 using System.IO;
 using Utils;
 
-namespace VoiceDispatcher
+namespace ServicioPPV
 {
 	class Proceso
 	{
@@ -26,19 +26,20 @@ namespace VoiceDispatcher
 		/// <param name="padre">Formulari opadre</param>
 		public Proceso(Socket sck, String trama, FMain padre)
 		{
-      _sck = sck;
-      _trama = trama;
-      _padre = padre;
+              _sck = sck;
+              _trama = trama;
+              _padre = padre;
 		}
 
     public void Ejecutar()
     { 
 			try
 			{
-        _padre.RegistroActividad(FMain.Msg_Info, "Datos recibidos: " + _trama.Replace('\0', ' ') + " .Esperando 5 segundos para contestar", "Proceso");
-				Thread.Sleep(5000);
-		    _sck.Send(Encoding.Default.GetBytes(_trama));
-        _sck.Close();
+                _padre.RegistroActividad(FMain.Msg_Info, "Datos recibidos: " + _trama.Replace('\0', ' ') , "Proceso");
+				//Thread.Sleep(5000);
+		        _sck.Send(Encoding.Default.GetBytes("Trama Recibida correcectamente: " + _trama ) );
+                _padre.RegistroActividad(FMain.Msg_Info, "Enviado trama de confirmación. ");
+                _sck.Close();
 			}
 			catch (Exception E)
 			{

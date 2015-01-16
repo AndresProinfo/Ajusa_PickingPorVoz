@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceDispatcher", "VoiceDispatcher.csproj", "{0CAEF6ED-ABC3-4C12-B436-D4ED3046A28B}"
 EndProject
 Global

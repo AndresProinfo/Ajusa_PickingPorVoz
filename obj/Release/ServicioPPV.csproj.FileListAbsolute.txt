@@ -1,0 +1,11 @@
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\bin\Release\log4net.dll
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\bin\Release\log4net.xml
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.csproj.GenerateResource.Cache
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.FMain.resources
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.Properties.Resources.resources
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\bin\Release\ServicioPPV.exe.config
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\bin\Release\ServicioPPV.exe
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\bin\Release\ServicioPPV.pdb
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.exe
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.pdb
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.csprojResolveAssemblyReference.cache

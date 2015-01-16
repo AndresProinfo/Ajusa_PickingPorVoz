@@ -14,39 +14,52 @@ using System.Threading;
 using System.IO;
 using Utils;
 
-namespace VoiceDispatcher
+
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
+
+namespace ServicioPPV
 {
 	public partial class FMain : Form
-	{
-		#region Constructor
+    {
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-		/// <summary>
+        #region VblesPrivadas
+        private static string IPSCK;
+        private static string PuertoSCK;
+           
+        #endregion 
+
+        #region Constructor
+
+        /// <summary>
 		/// Constructor
 		/// </summary>
 		public FMain()
 		{
 			InitializeComponent();
 
-			try 
-			{
-				SCK = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            IPSCK = Properties.Settings.Default.IPSCK;
+            PuertoSCK = Properties.Settings.Default.PuertoSCK;
+            try
+            {
+                SCK = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
-				SocketCallbackReceive = new AsyncCallback(OnDataReceived);
-				SocketCallbackEnd			= new AsyncCallback(OnDisconnect);
-				
-				this.Width	= 670;
-				this.Height	= 420;
+                SocketCallbackReceive = new AsyncCallback(OnDataReceived);
+                SocketCallbackEnd = new AsyncCallback(OnDisconnect);
 
-				LimpiarLog(5);
-			}
-			catch (Exception E)
-			{
- 				MessageBox.Show(
-					"Error al iniciar la aplicación.\r\n\r\n" + E.Message,
-					"Iniciar aplicación",
-					MessageBoxButtons.OK,
-					MessageBoxIcon.Error);
-			}
+                this.Width = 670;
+                this.Height = 420;
+
+                LimpiarLog(5);
+            }
+            catch (Exception E)
+            {
+                MessageBox.Show(
+                    "Error al iniciar la aplicación.\r\n\r\n" + E.Message,
+                    "Iniciar aplicación",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
 		}
 
 		#endregion
@@ -111,7 +124,7 @@ namespace VoiceDispatcher
 
 		private void FMain_Shown(object sender, EventArgs e)
 		{
-			Iniciar();
+			
 		}
 
 		private void FMain_FormClosing(object sender, FormClosingEventArgs e)
@@ -136,6 +149,19 @@ namespace VoiceDispatcher
 			this.WindowState = FormWindowState.Normal;
 		}
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Iniciar();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            RegistroActividad(Msg_Info, "Cerrando el servicio ...");
+            CerrarSockets();
+            Estado = ST_Detenido;
+            RegistroActividad(Msg_Info, "Servicio Cerrado ...");
+        }
+
 		#endregion
 
 		#region Métodos
@@ -144,20 +170,21 @@ namespace VoiceDispatcher
 		{
 			try
 			{
-				RegistroActividad(Msg_Info, "Iniciando servicio ...");
+                log.Info("Arrancando el servicio de SCK");
+                RegistroActividad(Msg_Info, "Iniciando servicio ...");
 				Estado = ST_Iniciando;
 
 				CerrarSockets();
 
 				SCK = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
-				SCK.Bind(new IPEndPoint(IPAddress.Any, 10000));
+                SCK.Bind(new IPEndPoint(IPAddress.Parse(IPSCK), Convert.ToInt32(PuertoSCK)));
 				SCK.Listen(4);
 				SCK.BeginAccept(new AsyncCallback(OnClientConnect), null);
 
 				Estado = ST_Iniciado;
 				RegistroActividad(Msg_Info, "========== Servicio iniciado ==========");
-        RegistroActividad(Msg_Info, "Servidor socket iniciado en puerto 10000");
+                RegistroActividad(Msg_Info, "Servidor socket iniciado en la IP: " + IPSCK + " puerto: "+ PuertoSCK);
 			}
 			catch (Exception E)
 			{
@@ -293,7 +320,7 @@ namespace VoiceDispatcher
 			{
 				if (Estado != ST_Deteniendo && Estado != ST_Detenido)
 				{
-          RegistroActividad(Msg_Info, "Nueva conexión");
+                    RegistroActividad(Msg_Info, "Nueva conexión");
 					WaitForData(SCK.EndAccept(asyn));
 					SCK.BeginAccept(new AsyncCallback(OnClientConnect), null);
 				}
@@ -375,7 +402,8 @@ namespace VoiceDispatcher
 
 		private void CerrarSockets()
 		{
-			if (SCK != null)
+            log.Info("Cerrando el servicio de SCK");
+            if (SCK != null)
 				SCK.Close();
 		}
 
@@ -404,5 +432,8 @@ namespace VoiceDispatcher
 		}
 
 		#endregion
-	}
+
+     
+
+    }
 }

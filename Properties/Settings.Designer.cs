@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VoiceDispatcher.Properties {
+namespace ServicioPPV.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -20,6 +20,30 @@ namespace VoiceDispatcher.Properties {
         public static Settings Default {
             get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("172.16.0.11")]
+        public string IPSCK {
+            get {
+                return ((string)(this["IPSCK"]));
+            }
+            set {
+                this["IPSCK"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10000")]
+        public string PuertoSCK {
+            get {
+                return ((string)(this["PuertoSCK"]));
+            }
+            set {
+                this["PuertoSCK"] = value;
             }
         }
     }
