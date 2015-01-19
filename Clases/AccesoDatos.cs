@@ -11,7 +11,6 @@ namespace ServicioPPV
     {
         private string cadena;
         public SqlConnection cn;
-        private SqlCommandBuilder cmb;
         public DataSet ds = new DataSet();
         public SqlDataAdapter da;
         public SqlCommand comando;
@@ -29,27 +28,25 @@ namespace ServicioPPV
         }
 
         //ejecutar un procedimiento almacenado
-        public void EjecutaPA(Tramas T)
+        public void EjecutaPA(Tramas T, String CadenaTrama)
         {
             int i;
+            char[] DelimitadorCadena = { ';' };
+            string[] Campos = CadenaTrama.Split(DelimitadorCadena);
+
             conectar();
-            
+ 
             da = new SqlDataAdapter(T.QueProcAlmacenado(), cn);
             cn.Open();
             da.SelectCommand.CommandType = CommandType.StoredProcedure;
-            
+
             //hay que recorrer el array sacando las variables y los valores
             i = 0;
             while (i < T.NumParametrosTrama())
             {
-                da.SelectCommand.Parameters.Add("@"+t.
-
-
-
-
+                da.SelectCommand.Parameters.Add("@" + T.ParametroNombreCampo(i), SqlDbType.Text).Value = Campos[i];
             }
-            da.SelectCommand.Parameters.Add("@codigo",SqlDbType.Int).Value=1;
-            da.Fill(ds,"tabla");
+            da.Fill(ds,"Tabla");
         }
 
         //obtiene los parametros y tipos de la trama de la tabla PPV_Campos_Trama

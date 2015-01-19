@@ -1,0 +1,6 @@
+INF 00:03:27 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+INF 00:04:23 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+ERR 00:04:23 Error al enviar datos. No se puede abrir la base de datos "bender" solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'Petter_Pan\Petter Pan'.
+INF 00:04:50 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+INF 00:10:58 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 

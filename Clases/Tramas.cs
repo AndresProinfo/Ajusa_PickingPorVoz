@@ -56,9 +56,17 @@ namespace ServicioPPV
                 }
             }
 
-            public void EjecutaPA()
+            public string ParametroNombreCampo(int i)
             {
-
+                return Campos[i, 0].ToString();
+            }
+            public string ParametroTipoCampo(int i)
+            {
+                return Campos[i, 1].ToString();
+            }
+            public string ParametroOrdenEnTrama(int i)
+            {
+                return Campos[i, 2].ToString();
             }
         #endregion
     }

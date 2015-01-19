@@ -3,16 +3,22 @@
   <Profiles />
   <Settings>
     <Setting Name="IPSCK" Type="System.String" Scope="User">
-      <Value Profile="(Default)">172.16.0.11</Value>
+      <Value Profile="(Default)">192.168.1.154</Value>
     </Setting>
     <Setting Name="PuertoSCK" Type="System.String" Scope="User">
       <Value Profile="(Default)">10000</Value>
     </Setting>
     <Setting Name="ConexionSQL" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Data Source=Ajusa-SQL\Ganimedes;Initial Catalog=datosajusa;User ID=sa</Value>
+      <Value Profile="(Default)">Data Source=(local);Initial Catalog=datosajusa;Integrated Security=True</Value>
     </Setting>
     <Setting Name="CantMaxParametros" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="String_Ajusa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=Ajusa-SQL\Ganimedes;Initial Catalog=datosajusa;User ID=sa</Value>
+    </Setting>
+    <Setting Name="String_casa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=(local);Initial Catalog=bender;Integrated Security=True</Value>
     </Setting>
   </Settings>
 </SettingsFile>

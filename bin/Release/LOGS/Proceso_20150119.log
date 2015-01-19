@@ -28,3 +28,19 @@ Nombre del parámetro: dataTable
 INF 12:08:11 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
 INF 12:13:47 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
 INF 12:15:56 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+INF 23:51:15 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+ERR 23:51:31 Error al enviar datos. Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Interfaces de red SQL, error: 26 - Error al buscar el servidor o instancia especificado)
+INF 23:53:28 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+ERR 23:53:44 Error al enviar datos. Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Proveedor de canalizaciones con nombre, error: 40 - No se pudo abrir una conexión con SQL Server)
+INF 23:54:33 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+ERR 23:54:33 Error al enviar datos. Error de inicio de sesión del usuario 'sa'.
+INF 23:55:24 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+ERR 23:55:24 Error al enviar datos. Palabra clave no admitida: '"data source'.
+INF 23:56:47 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+INF 23:57:31 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+ERR 23:57:31 Error al enviar datos. Palabra clave no admitida: '"data source'.
+INF 23:57:56 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+INF 23:58:22 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+ERR 23:58:22 Error al enviar datos. Palabra clave no admitida: '"data source'.
+INF 23:59:36 Datos recibidos: 19012015102425;123456;R01_LOGIN;7382 
+ERR 23:59:36 Error al enviar datos. Palabra clave no admitida: '"data source'.

@@ -50,7 +50,8 @@ namespace ServicioPPV
                     log.Info("Ejecución del proc. almacenado: " + Tr.QueProcAlmacenado());
                     Tr.CargaParametrosTrama();
                     //hay que recuperar los parametros y tipos de la trama y ejecutar el PA
-                    Tr.EjecutaPA();
+                    AD.EjecutaPA(Tr,_trama.Replace('\0',' '));
+
 
 
 
