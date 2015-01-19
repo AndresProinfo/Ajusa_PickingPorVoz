@@ -18,6 +18,8 @@ namespace ServicioPPV
     private String _trama;
     private FMain _padre;
 
+
+
 		/// <summary>
 		/// Constructor
 		/// </summary>
@@ -31,21 +33,23 @@ namespace ServicioPPV
               _padre = padre;
 		}
 
-    public void Ejecutar()
-    { 
-			try
-			{
-                _padre.RegistroActividad(FMain.Msg_Info, "Datos recibidos: " + _trama.Replace('\0', ' ') , "Proceso");
-				//Thread.Sleep(5000);
-		        _sck.Send(Encoding.Default.GetBytes("Trama Recibida correcectamente: " + _trama ) );
-                _padre.RegistroActividad(FMain.Msg_Info, "Enviado trama de confirmación. ");
-                _sck.Close();
-			}
-			catch (Exception E)
-			{
-				_padre.RegistroActividad(FMain.Msg_Error, "Error al enviar datos. " + E.Message, "Proceso");
-			}
-    }
+        public void Ejecutar()
+        { 
+			    
+                try
+			    {
+                    _padre.RegistroActividad(FMain.Msg_Info, "Datos recibidos: " + _trama.Replace('\0', ' ') , "Proceso");
+				    //Thread.Sleep(5000);
+		            _sck.Send(Encoding.Default.GetBytes("Trama Recibida correcectamente: " + _trama ) );
+
+                    _padre.RegistroActividad(FMain.Msg_Info, "Enviado trama de confirmación. ");
+                    _sck.Close();
+			    }
+			    catch (Exception E)
+			    {
+				    _padre.RegistroActividad(FMain.Msg_Error, "Error al enviar datos. " + E.Message, "Proceso");
+			    }
+        }
 
 	}
 }

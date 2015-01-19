@@ -15,6 +15,8 @@ using System.IO;
 using Utils;
 
 
+
+
 [assembly: log4net.Config.XmlConfigurator(Watch = true)]
 
 namespace ServicioPPV
@@ -189,7 +191,7 @@ namespace ServicioPPV
 			catch (Exception E)
 			{
 				MessageBox.Show(
-						"Error al iniciar el servicio Voice Dispatcher.\r\n\r\n" + E.Message,
+						"Error al iniciar el servicio Picking Por Voz.\r\n\r\n" + E.Message,
 						"Iniciando servicio",
 						MessageBoxButtons.OK,
 						MessageBoxIcon.Error);
@@ -381,9 +383,18 @@ namespace ServicioPPV
 
 					// Proceso
 					Proceso p = new Proceso(sp.Soc, cmd, this);
+                    Thread t = new Thread(new ThreadStart(p.Ejecutar));
+                    t.Start();
+                    Tramas Tr = new Tramas(cmd);
+                    AccesoDatos Ad = new AccesoDatos();
 
-					Thread t = new Thread(new ThreadStart(p.Ejecutar));
-					t.Start();
+                    Ad.
+
+
+                    
+
+
+			
 				}
 			}
 			catch (Exception E)
@@ -432,6 +443,11 @@ namespace ServicioPPV
 		}
 
 		#endregion
+
+        private void FMain_Load(object sender, EventArgs e)
+        {
+
+        }
 
      
 

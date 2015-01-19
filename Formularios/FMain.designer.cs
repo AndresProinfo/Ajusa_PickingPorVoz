@@ -133,6 +133,7 @@
             this.Name = "FMain";
             this.Text = "Servidor Tramas Ajusa";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FMain_FormClosing);
+            this.Load += new System.EventHandler(this.FMain_Load);
             this.Shown += new System.EventHandler(this.FMain_Shown);
             this.Resize += new System.EventHandler(this.FMain_Resize);
             this.ResumeLayout(false);
