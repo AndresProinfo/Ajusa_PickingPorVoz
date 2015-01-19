@@ -46,5 +46,29 @@ namespace ServicioPPV.Properties {
                 this["PuertoSCK"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=Ajusa-SQL\\Ganimedes;Initial Catalog=datosajusa;User ID=sa")]
+        public string ConexionSQL {
+            get {
+                return ((string)(this["ConexionSQL"]));
+            }
+            set {
+                this["ConexionSQL"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("15")]
+        public int CantMaxParametros {
+            get {
+                return ((int)(this["CantMaxParametros"]));
+            }
+            set {
+                this["CantMaxParametros"] = value;
+            }
+        }
     }
 }

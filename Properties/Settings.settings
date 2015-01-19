@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VoiceDispatcher.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ServicioPPV.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
     <Setting Name="IPSCK" Type="System.String" Scope="User">
@@ -7,6 +7,12 @@
     </Setting>
     <Setting Name="PuertoSCK" Type="System.String" Scope="User">
       <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="ConexionSQL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=Ajusa-SQL\Ganimedes;Initial Catalog=datosajusa;User ID=sa</Value>
+    </Setting>
+    <Setting Name="CantMaxParametros" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15</Value>
     </Setting>
   </Settings>
 </SettingsFile>

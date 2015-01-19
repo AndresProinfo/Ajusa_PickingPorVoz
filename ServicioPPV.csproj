@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\AccesoDatos.cs" />
+    <Compile Include="Clases\ParametrosPA.cs" />
     <Compile Include="Clases\Proceso.cs" />
     <Compile Include="Clases\Tramas.cs" />
     <Compile Include="Clases\Utils.cs" />

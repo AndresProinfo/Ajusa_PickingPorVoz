@@ -385,16 +385,6 @@ namespace ServicioPPV
 					Proceso p = new Proceso(sp.Soc, cmd, this);
                     Thread t = new Thread(new ThreadStart(p.Ejecutar));
                     t.Start();
-                    Tramas Tr = new Tramas(cmd);
-                    AccesoDatos Ad = new AccesoDatos();
-
-                    Ad.
-
-
-                    
-
-
-			
 				}
 			}
 			catch (Exception E)

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
 using System.Data;
@@ -16,60 +15,86 @@ namespace ServicioPPV
         public DataSet ds = new DataSet();
         public SqlDataAdapter da;
         public SqlCommand comando;
-        public DataTable dt;
+        
 
         public AccesoDatos()
         {
             //constructor datos
-            cadena="Data Source=(local);Initial Catalog=bender;Integrated Security=True";
+            cadena = Properties.Settings.Default.ConexionSQL;
         }
 
-        private void conectar()
+        public void conectar()
         {
             cn = new SqlConnection(cadena);
         }
 
         //ejecutar un procedimiento almacenado
-        public void Consultar_x_codigo(string valor, string tabla)
+        public void EjecutaPA(Tramas T)
         {
-            string strSQL;
-            strSQL="sp_consultar_persona";
+            int i;
             conectar();
-            da = new SqlDataAdapter(strSQL, cn);
+            
+            da = new SqlDataAdapter(T.QueProcAlmacenado(), cn);
             cn.Open();
             da.SelectCommand.CommandType = CommandType.StoredProcedure;
-            da.SelectCommand.Parameters.Add("@codigo",SqlDbType.Int).Value=valor;
-            da.Fill(ds,tabla);
+            
+            //hay que recorrer el array sacando las variables y los valores
+            i = 0;
+            while (i < T.NumParametrosTrama())
+            {
+                da.SelectCommand.Parameters.Add("@"+t.
+
+
+
+
+            }
+            da.SelectCommand.Parameters.Add("@codigo",SqlDbType.Int).Value=1;
+            da.Fill(ds,"tabla");
         }
 
-        public void CargaDatos()
+        //obtiene los parametros y tipos de la trama de la tabla PPV_Campos_Trama
+        public DataTable RecuperaParametrosPA(int IDTipoTrama)
         {
-
-        }
-
-
-        //metodo para consultar
-        public void consultar(string sql, string tabla)
-        {
-            conectar();
-            ds.Tables.Clear();
-            da = new SqlDataAdapter(sql, cn);
-            cmb = new SqlCommandBuilder(da);
-            da.Fill(ds, tabla);
-        }
-
-        //consulta 2
-        public DataTable consultar2(string tabla)
-        {
-            conectar();
-            string sql = "select * from " + tabla;
-            da = new SqlDataAdapter(sql, cn);
-            DataSet dts = new DataSet();
-            da.Fill(dts, tabla);
             DataTable dt = new DataTable();
-            dt = dts.Tables[tabla];
+            conectar();
+            string sql = "select NombreCampo,TipoCampo,OrdenEnTrama from PPV_Campos_Trama where idtipotrama =" + IDTipoTrama + " order by OrdenEnTrama";
+
+            SqlCommand cmd = new SqlCommand(sql, cn);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+
             return dt;
         }
+
+        public int ConsultaIDTipoTrama(String ValorTipoTrama)
+        {
+            DataTable dt = new DataTable();
+            conectar();
+            string sql = "select IDTipoTrama from PPV_Tipos_Trama where valor ='" + ValorTipoTrama + "'";
+
+            SqlCommand cmd = new SqlCommand(sql, cn);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+
+            DataRow R = dt.Rows[0];
+            return Convert.ToInt32(R["IDTipoTrama"]);
+        }
+
+        public String ConsultaProcAlmacenado(String ValorTipoTrama)
+        {
+            DataTable dt = new DataTable();
+            conectar();
+            string sql = "select ProcAlmacenado from PPV_Tipos_Trama where valor ='" + ValorTipoTrama + "'";
+
+            SqlCommand cmd = new SqlCommand(sql, cn);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+
+            DataRow R = dt.Rows[0];
+            return Convert.ToString(R["ProcAlmacenado"]);
+        }
+
+        
 
         //metodo eliminar
         public bool eliminar(string tabla, string condicion)
@@ -110,12 +135,12 @@ namespace ServicioPPV
         }
 
         //insertar
-        //al insertar hay un trigger en el SQL que lo que hace es guardar cierta información en la tabla persons_con
-        public bool insertar(string sql)
+        public bool InsertarTrama(string trama)
         {
-
+            string sql = "insert into PPV_tramas_entrada values('" + trama + "',0)";
             conectar();
             cn.Open();
+            
             comando = new SqlCommand(sql, cn);
             int i = comando.ExecuteNonQuery();
             cn.Close();

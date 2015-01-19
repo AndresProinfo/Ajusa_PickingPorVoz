@@ -8,7 +8,6 @@ C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\bin\Release\Servicio
 C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\bin\Release\ServicioPPV.pdb
 C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.exe
 C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.pdb
-C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.csprojResolveAssemblyReference.cache
 K:\Programacion\PROINFO\Github\Ajusa_PickingPorVoz\bin\Release\ServicioPPV.exe.config
 K:\Programacion\PROINFO\Github\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.exe
 K:\Programacion\PROINFO\Github\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.pdb
@@ -20,3 +19,4 @@ K:\Programacion\PROINFO\Github\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.cspro
 K:\Programacion\PROINFO\Github\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.FMain.resources
 K:\Programacion\PROINFO\Github\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.Properties.Resources.resources
 K:\Programacion\PROINFO\Github\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.csproj.GenerateResource.Cache
+C:\Users\instalador\Documents\Proyectos\Ajusa_PickingPorVoz\obj\Release\ServicioPPV.csprojResolveAssemblyReference.cache
