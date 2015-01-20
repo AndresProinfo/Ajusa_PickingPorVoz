@@ -18,3 +18,7 @@ INF 00:10:55 Iniciando servicio ...
 INF 00:10:55 ========== Servicio iniciado ==========
 INF 00:10:55 Servidor socket iniciado en la IP: 192.168.1.154 puerto: 10000
 INF 00:10:57 Nueva conexión
+INF 06:05:34 Iniciando servicio ...
+INF 06:05:34 ========== Servicio iniciado ==========
+INF 06:05:34 Servidor socket iniciado en la IP: 192.168.1.154 puerto: 10000
+INF 06:06:20 Nueva conexión

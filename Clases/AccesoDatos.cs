@@ -30,23 +30,42 @@ namespace ServicioPPV
         //ejecutar un procedimiento almacenado
         public void EjecutaPA(Tramas T, String CadenaTrama)
         {
+            //https://desdeceronetsql2.wordpress.com/2012/10/25/recuperar-1-valor-devuelto-de-procedimiento-almacenado-en-c/
+
+            string estado, descrip;
             int i;
             char[] DelimitadorCadena = { ';' };
             string[] Campos = CadenaTrama.Split(DelimitadorCadena);
 
             conectar();
- 
-            da = new SqlDataAdapter(T.QueProcAlmacenado(), cn);
+
+            SqlCommand cmd = new SqlCommand(T.QueProcAlmacenado(), cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+
             cn.Open();
-            da.SelectCommand.CommandType = CommandType.StoredProcedure;
 
             //hay que recorrer el array sacando las variables y los valores
             i = 0;
             while (i < T.NumParametrosTrama())
             {
-                da.SelectCommand.Parameters.Add("@" + T.ParametroNombreCampo(i), SqlDbType.Text).Value = Campos[i];
+                cmd.Parameters.Add("@" + T.ParametroNombreCampo(i), SqlDbType.NVarChar).Value = Campos[i];
             }
-            da.Fill(ds,"Tabla");
+
+            SqlParameter Dev_Estado = new SqlParameter("@estado", 0);
+            SqlParameter Dev_Error = new SqlParameter("@error", 0);
+            Dev_Estado.Direction = ParameterDirection.Output;
+            Dev_Error.Direction = ParameterDirection.Output;
+            cmd.Parameters.Add(Dev_Estado);
+            cmd.Parameters.Add(Dev_Error);
+
+            cmd.ExecuteNonQuery();
+
+            estado = cmd.Parameters("@estado").Value.ToString();
+            descrip = cmd.Parameters("@error").Value.ToString();
+
+            cn.Close();
+            
+
         }
 
         //obtiene los parametros y tipos de la trama de la tabla PPV_Campos_Trama
