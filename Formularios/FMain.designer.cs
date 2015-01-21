@@ -83,10 +83,10 @@
             this.lREG.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
-            this.lREG.Location = new System.Drawing.Point(-1, 56);
+            this.lREG.Location = new System.Drawing.Point(6, 56);
             this.lREG.Name = "lREG";
             this.lREG.RightToLeftLayout = true;
-            this.lREG.Size = new System.Drawing.Size(1137, 420);
+            this.lREG.Size = new System.Drawing.Size(960, 420);
             this.lREG.SmallImageList = this.iListREG;
             this.lREG.TabIndex = 4;
             this.lREG.UseCompatibleStateImageBehavior = false;
@@ -95,12 +95,12 @@
             // columnHeader1
             // 
             this.columnHeader1.Text = "Fecha";
-            this.columnHeader1.Width = 152;
+            this.columnHeader1.Width = 150;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "Descripción";
-            this.columnHeader2.Width = 500;
+            this.columnHeader2.Width = 785;
             // 
             // button1
             // 
@@ -126,7 +126,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1134, 511);
+            this.ClientSize = new System.Drawing.Size(974, 512);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lREG);

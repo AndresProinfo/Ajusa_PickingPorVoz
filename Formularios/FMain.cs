@@ -50,9 +50,10 @@ namespace ServicioPPV
                 //accion despues de recibir
                 SocketCallbackEnd = new AsyncCallback(OnDisconnect);
 
-                this.Width = 670;
-                this.Height = 420;
+                this.Width = 990;
+                this.Height = 650;
 
+                lREG.Scrollable = true; 
                 LimpiarLog(5);
             }
             catch (Exception E)
@@ -134,11 +135,11 @@ namespace ServicioPPV
 		{
 			if (MessageBox.Show("¿Desea salir de la aplicación?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
 			{
-        CerrarSockets();
+                CerrarSockets();
 			}
-      else
-        e.Cancel = true;
-		}
+            else
+                e.Cancel = true;
+		  }
 
 		private void FMain_Resize(object sender, EventArgs e)
 		{
@@ -323,7 +324,7 @@ namespace ServicioPPV
 			{
 				if (Estado != ST_Deteniendo && Estado != ST_Detenido)
 				{
-                    RegistroActividad(Msg_Info, "Nueva conexión");
+                    //RegistroActividad(Msg_Info, "Nueva conexión");
 					WaitForData(SCK.EndAccept(asyn));
 					SCK.BeginAccept(new AsyncCallback(OnClientConnect), null);
 				}

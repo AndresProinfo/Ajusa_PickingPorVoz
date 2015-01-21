@@ -186,3 +186,43 @@ Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
 Received message -> [OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; ]
 Server disconnected
 Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
+Received message -> [OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
+Received message -> [ER;El Usuario no tiene ninguna sesiÃ³n abierta;Andres;NumSerial;R99_LOGOUT;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [ER;El usuario ya esta logueado con esa pistola (NumSerial);Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [Datos enviados: ER;El usuario ya esta logueado con esa pistola (NumSerial);Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [Datos enviados: ER;El usuario ya esta logueado con esa pistola (NumSerial);Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
+Received message -> [Datos enviados: OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; ]
+Server disconnected
+Closed.

@@ -376,3 +376,49 @@
 2015-01-21 11:35:45,334 [14] INFO ServicioPPV.Proceso - Trama enviada correctamente a la pistola OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; 
 2015-01-21 11:36:05,993 [15] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_CierreSesion
 2015-01-21 11:36:05,999 [15] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; 
+2015-01-21 11:53:10,660 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:38,358 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 11:56:38,380 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:39,240 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:39,990 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 11:56:39,991 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:40,374 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:40,790 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 11:56:40,791 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:41,177 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:41,564 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 11:56:41,565 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:41,975 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:42,406 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 11:56:42,408 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:42,839 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:43,606 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 11:56:43,608 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:44,708 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:45,215 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 11:56:45,217 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:45,654 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:46,237 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 11:56:46,239 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:56:46,670 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:57:17,785 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 11:57:54,422 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 12:12:23,751 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 12:12:23,771 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 12:12:39,139 [14] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 12:12:39,148 [14] INFO ServicioPPV.Proceso - Trama enviada correctamente a la pistola OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; 
+2015-01-21 12:12:53,513 [15] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_CierreSesion
+2015-01-21 12:12:53,519 [15] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; 
+2015-01-21 12:12:58,005 [16] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_CierreSesion
+2015-01-21 12:13:12,327 [17] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 12:13:12,336 [17] INFO ServicioPPV.Proceso - Trama enviada correctamente a la pistola OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; 
+2015-01-21 12:13:15,544 [16] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 12:17:13,047 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 12:17:13,069 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 12:17:17,069 [14] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 12:17:24,857 [15] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 12:17:41,617 [16] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_CierreSesion
+2015-01-21 12:17:49,083 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 12:17:50,896 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 12:17:50,897 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 12:17:59,675 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK

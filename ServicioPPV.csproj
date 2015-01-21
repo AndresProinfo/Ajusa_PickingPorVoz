@@ -108,8 +108,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logoajusa.ico" />
-    <Content Include="ZetesVoice.ico" />
-    <Content Include="ZetesVoiceDisabled.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

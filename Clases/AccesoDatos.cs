@@ -87,11 +87,6 @@ namespace ServicioPPV
            
             cn.Close();
             return valor;
-
-
-
-
-            
         }
         //obtiene los parametros y tipos de la trama de la tabla PPV_Campos_Trama
         public DataTable RecuperaParametrosPA(int IDTipoTrama)

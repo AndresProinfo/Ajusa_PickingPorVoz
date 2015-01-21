@@ -28,19 +28,22 @@ namespace ServicioPPV
             {
                 char[] DelimitadorCadena = { ';' };
                 string[] Campos = trama.Split(DelimitadorCadena);
-
+                AccesoDatos AD = new AccesoDatos();
+                
                 TipoTrama = Campos[2];
+                ProcAlmacenado = AD.ConsultaProcAlmacenado(TipoTrama);
+                IDTipoTrama = AD.ConsultaIDTipoTrama(TipoTrama);
+
+                XCargaParametrosTrama();
+              
             }
 
             public string QueProcAlmacenado()
             {
-               AccesoDatos AD = new AccesoDatos();
-               ProcAlmacenado = AD.ConsultaProcAlmacenado(TipoTrama);
-               IDTipoTrama = AD.ConsultaIDTipoTrama(TipoTrama);
                return ProcAlmacenado;
             }
 
-            public void CargaParametrosTrama()
+            public void XCargaParametrosTrama()
             {
                 AccesoDatos AD = new AccesoDatos();
                 
@@ -58,9 +61,7 @@ namespace ServicioPPV
             
             public string ParametroNombreCampo(int i)
             {
-                string Campo;
-                Campo= Campos[i, 0].ToString();
-                return Campo;
+                return Campos[i, 0].ToString();
             }
             public string ParametroTipoCampo(int i)
             {
