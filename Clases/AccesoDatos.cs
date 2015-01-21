@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Data.SqlTypes;
 
+
 namespace ServicioPPV
 {
     class AccesoDatos
@@ -28,10 +29,8 @@ namespace ServicioPPV
         }
 
         //ejecutar un procedimiento almacenado
-        public void EjecutaPA(Tramas T, String CadenaTrama)
+        public string EjecutaPA(Tramas T, String CadenaTrama)
         {
-            //https://desdeceronetsql2.wordpress.com/2012/10/25/recuperar-1-valor-devuelto-de-procedimiento-almacenado-en-c/
-
             string estado, descrip;
             int i;
             char[] DelimitadorCadena = { ';' };
@@ -40,19 +39,21 @@ namespace ServicioPPV
             conectar();
 
             SqlCommand cmd = new SqlCommand(T.QueProcAlmacenado(), cn);
+                               
             cmd.CommandType = CommandType.StoredProcedure;
-
             cn.Open();
 
             //hay que recorrer el array sacando las variables y los valores
             i = 0;
+
             while (i < T.NumParametrosTrama())
             {
-                cmd.Parameters.Add("@" + T.ParametroNombreCampo(i), SqlDbType.NVarChar).Value = Campos[i];
+                cmd.Parameters.Add("@" + T.ParametroNombreCampo(i).ToString(), SqlDbType.NVarChar, 20).Value = Campos[i].ToString();
+                i++;
             }
-
-            SqlParameter Dev_Estado = new SqlParameter("@estado", 0);
-            SqlParameter Dev_Error = new SqlParameter("@error", 0);
+                                  
+            SqlParameter Dev_Estado = new SqlParameter("@estado",SqlDbType.NVarChar,20);
+            SqlParameter Dev_Error = new SqlParameter("@error", SqlDbType.NVarChar,100);
             Dev_Estado.Direction = ParameterDirection.Output;
             Dev_Error.Direction = ParameterDirection.Output;
             cmd.Parameters.Add(Dev_Estado);
@@ -60,14 +61,38 @@ namespace ServicioPPV
 
             cmd.ExecuteNonQuery();
 
-            estado = cmd.Parameters("@estado").Value.ToString();
-            descrip = cmd.Parameters("@error").Value.ToString();
+            estado = Dev_Estado.Value.ToString();
+            descrip = Dev_Error.Value.ToString();
 
             cn.Close();
-            
+            return estado + ";" + descrip + ";" + CadenaTrama;
 
         }
+        public int CambiaStatusIDTramaEnvio(string Trama)
+        {
 
+            conectar();
+            SqlCommand cmd = new SqlCommand("PPV_ActualizaStatusID", cn);
+
+            cmd.CommandType = CommandType.StoredProcedure;
+            cn.Open();
+            cmd.Parameters.Add("@trama", SqlDbType.NVarChar, 255).Value = Trama.ToString();
+            SqlParameter Dev_Estado = new SqlParameter("@StatusOK", SqlDbType.Int, 0);
+            Dev_Estado.Direction = ParameterDirection.Output;
+            cmd.Parameters.Add(Dev_Estado);
+
+            cmd.ExecuteNonQuery();
+            int valor;
+            valor = Int32.Parse(Dev_Estado.Value.ToString());
+           
+            cn.Close();
+            return valor;
+
+
+
+
+            
+        }
         //obtiene los parametros y tipos de la trama de la tabla PPV_Campos_Trama
         public DataTable RecuperaParametrosPA(int IDTipoTrama)
         {
@@ -108,46 +133,6 @@ namespace ServicioPPV
 
             DataRow R = dt.Rows[0];
             return Convert.ToString(R["ProcAlmacenado"]);
-        }
-
-        
-
-        //metodo eliminar
-        public bool eliminar(string tabla, string condicion)
-        {
-            conectar();
-            cn.Open();
-            string sql = "delete from " + tabla + " where " + condicion;
-            comando = new SqlCommand(sql, cn);
-            int i = comando.ExecuteNonQuery();
-            cn.Close();
-            if (i > 0)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-
-        //actualizar
-        public bool actualizar(string tabla, string campos, string condicion)
-        {
-            conectar();
-            cn.Open();
-            string sql = "update " + tabla + " set " + campos + " where " + condicion;
-            comando = new SqlCommand(sql, cn);
-            int i = comando.ExecuteNonQuery();
-            cn.Close();
-            if (i > 0)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
         }
 
         //insertar

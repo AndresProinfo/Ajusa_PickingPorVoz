@@ -1,0 +1,151 @@
+INF 06:42:17 Iniciando servicio ...
+INF 06:42:17 ========== Servicio iniciado ==========
+INF 06:42:17 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 06:42:20 Nueva conexión
+INF 06:44:22 Cerrando el servicio ...
+INF 06:44:22 Servicio Cerrado ...
+INF 06:44:24 Iniciando servicio ...
+INF 06:44:24 ========== Servicio iniciado ==========
+INF 06:44:24 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 06:44:48 Iniciando servicio ...
+INF 06:44:48 ========== Servicio iniciado ==========
+INF 06:44:48 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 06:44:49 Nueva conexión
+INF 06:54:10 Iniciando servicio ...
+INF 06:54:10 ========== Servicio iniciado ==========
+INF 06:54:10 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 06:54:17 Nueva conexión
+INF 06:56:27 Iniciando servicio ...
+INF 06:56:27 ========== Servicio iniciado ==========
+INF 06:56:27 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 06:56:30 Nueva conexión
+INF 07:00:53 Iniciando servicio ...
+INF 07:00:53 ========== Servicio iniciado ==========
+INF 07:00:53 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 07:00:57 Nueva conexión
+INF 07:03:36 Iniciando servicio ...
+INF 07:03:36 ========== Servicio iniciado ==========
+INF 07:03:36 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 07:03:38 Nueva conexión
+INF 07:22:37 Iniciando servicio ...
+INF 07:22:37 ========== Servicio iniciado ==========
+INF 07:22:37 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 07:22:39 Nueva conexión
+INF 08:05:07 Iniciando servicio ...
+INF 08:05:07 ========== Servicio iniciado ==========
+INF 08:05:07 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 08:05:36 Nueva conexión
+INF 08:05:47 ER,El usuario ya esta logueado con esa pistola (NumSerial);200120151535;NumSerial;R01_LOGIN;123; 
+INF 08:06:43 Nueva conexión
+INF 08:07:00 OK,El usuario ha realizado el Logout correctamente;200120151535;NumSerial;R99_LOGOUT;123; 
+INF 08:43:22 Iniciando servicio ...
+INF 08:43:22 ========== Servicio iniciado ==========
+INF 08:43:22 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 08:43:26 Nueva conexión
+INF 08:46:24 Iniciando servicio ...
+INF 08:46:24 ========== Servicio iniciado ==========
+INF 08:46:24 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 08:46:30 Nueva conexión
+INF 08:59:08 Iniciando servicio ...
+INF 08:59:08 ========== Servicio iniciado ==========
+INF 08:59:08 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 08:59:13 Nueva conexión
+INF 08:59:35 Cerrando el servicio ...
+INF 08:59:35 Servicio Cerrado ...
+INF 08:59:36 Iniciando servicio ...
+INF 08:59:36 ========== Servicio iniciado ==========
+INF 08:59:36 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 08:59:42 Nueva conexión
+INF 09:04:57 Iniciando servicio ...
+INF 09:04:57 ========== Servicio iniciado ==========
+INF 09:04:57 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:05:00 Nueva conexión
+INF 09:11:29 Iniciando servicio ...
+INF 09:11:29 ========== Servicio iniciado ==========
+INF 09:11:29 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:11:32 Nueva conexión
+INF 09:22:38 Iniciando servicio ...
+INF 09:22:38 ========== Servicio iniciado ==========
+INF 09:22:38 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:22:52 Nueva conexión
+INF 09:25:23 Iniciando servicio ...
+INF 09:25:23 ========== Servicio iniciado ==========
+INF 09:25:23 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:25:33 Nueva conexión
+INF 09:27:42 Iniciando servicio ...
+INF 09:27:42 ========== Servicio iniciado ==========
+INF 09:27:42 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:27:45 Nueva conexión
+INF 09:28:43 Iniciando servicio ...
+INF 09:28:43 ========== Servicio iniciado ==========
+INF 09:28:43 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:28:45 Nueva conexión
+INF 09:31:43 Iniciando servicio ...
+INF 09:31:43 ========== Servicio iniciado ==========
+INF 09:31:43 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:31:45 Nueva conexión
+INF 09:38:08 Iniciando servicio ...
+INF 09:38:08 ========== Servicio iniciado ==========
+INF 09:38:08 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:38:10 Nueva conexión
+INF 09:40:15 OK;Usuario logueado correctamente;Fecha;NumSerial;R01_LOGIN;123; 
+INF 09:41:01 Iniciando servicio ...
+INF 09:41:01 ========== Servicio iniciado ==========
+INF 09:41:01 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:41:05 Nueva conexión
+INF 09:41:50 ER;El usuario ya esta logueado con esa pistola (NumSerial);Andres;NumSerial;R01_LOGIN;123; 
+INF 09:42:01 Nueva conexión
+INF 09:42:10 Cerrando el servicio ...
+INF 09:42:10 Servicio Cerrado ...
+INF 09:42:11 Iniciando servicio ...
+INF 09:42:11 ========== Servicio iniciado ==========
+INF 09:42:11 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:42:12 Nueva conexión
+INF 09:42:30 Cerrando el servicio ...
+INF 09:42:30 Servicio Cerrado ...
+INF 09:42:31 Iniciando servicio ...
+INF 09:42:31 ========== Servicio iniciado ==========
+INF 09:42:31 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:42:42 Iniciando servicio ...
+INF 09:42:42 ========== Servicio iniciado ==========
+INF 09:42:42 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:42:45 Nueva conexión
+INF 09:48:04 Iniciando servicio ...
+INF 09:48:04 ========== Servicio iniciado ==========
+INF 09:48:04 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:48:07 Nueva conexión
+INF 09:50:42 Iniciando servicio ...
+INF 09:50:42 ========== Servicio iniciado ==========
+INF 09:50:42 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:50:47 Nueva conexión
+INF 09:51:59 Iniciando servicio ...
+INF 09:51:59 ========== Servicio iniciado ==========
+INF 09:51:59 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 09:52:01 Nueva conexión
+INF 09:52:47 OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; 
+INF 10:32:05 Iniciando servicio ...
+INF 10:32:05 ========== Servicio iniciado ==========
+INF 10:32:05 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 10:32:09 Nueva conexión
+INF 10:32:16 ER;El usuario ya esta logueado con esa pistola (NumSerial);Andres;NumSerial;R01_LOGIN;123; 
+INF 10:32:32 Nueva conexión
+INF 10:32:38 OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; 
+INF 10:33:59 Nueva conexión
+INF 10:34:00 ER;El Usuario no tiene ninguna sesión abierta;Andres;NumSerial;R99_LOGOUT;123; 
+INF 10:34:41 Nueva conexión
+INF 10:35:52 Nueva conexión
+INF 10:35:53 OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; 
+INF 10:36:09 Nueva conexión
+INF 10:36:26 Nueva conexión
+INF 10:36:27 OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; 
+INF 10:36:56 Nueva conexión
+INF 10:36:57 OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; 
+INF 10:43:20 Nueva conexión
+INF 10:43:21 OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; 
+INF 11:35:28 Iniciando servicio ...
+INF 11:35:28 ========== Servicio iniciado ==========
+INF 11:35:28 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 11:35:31 Nueva conexión
+INF 11:35:45 OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; 
+INF 11:35:50 Nueva conexión
+INF 11:36:06 OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; 

@@ -1,0 +1,56 @@
+INF 06:42:24 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+ERR 06:42:24 Error al enviar datos. Error de inserción: el nombre de columna o los valores especificados no corresponden a la definición de la tabla.
+INF 06:44:51 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+ERR 06:49:22 Error al enviar datos. Error de inserción: el nombre de columna o los valores especificados no corresponden a la definición de la tabla.
+INF 06:54:18 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+ERR 06:54:21 Error al enviar datos. Error de inserción: el nombre de columna o los valores especificados no corresponden a la definición de la tabla.
+INF 06:56:31 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+ERR 06:56:33 Error al enviar datos. Error de inserción: el nombre de columna o los valores especificados no corresponden a la definición de la tabla.
+INF 07:00:58 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+INF 07:03:39 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+INF 07:22:40 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+ERR 07:28:37 Error al enviar datos. Error de inserción: el nombre de columna o los valores especificados no corresponden a la definición de la tabla.
+INF 08:05:37 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+INF 08:06:45 Datos recibidos: 200120151535;NumSerial;R99_LOGOUT;123; 
+INF 08:43:55 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+ERR 08:44:14 Error al enviar datos. Referencia a objeto no establecida como instancia de un objeto.
+INF 08:46:31 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+ERR 08:46:40 Error al enviar datos. Referencia a objeto no establecida como instancia de un objeto.
+INF 08:59:15 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+ERR 08:59:15 Error al enviar datos. Referencia a objeto no establecida como instancia de un objeto.
+INF 08:59:44 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+ERR 09:00:35 Error al enviar datos. Referencia a objeto no establecida como instancia de un objeto.
+INF 09:05:01 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+ERR 09:05:10 Error al enviar datos. Referencia a objeto no establecida como instancia de un objeto.
+INF 09:11:35 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+ERR 09:12:39 Error al enviar datos. Referencia a objeto no establecida como instancia de un objeto.
+INF 09:22:53 Datos recibidos: 200120151535;NumSerial;R99_LOGOUT;123; 
+INF 09:25:34 Datos recibidos: 200120151535;NumSerial;R01_LOGIN;123; 
+INF 09:28:02 Datos recibidos: 200120151535;NumSerial;R01_LOGOUT;123; 
+ERR 09:28:02 Error al enviar datos. No hay ninguna fila en la posición 0.
+INF 09:31:46 Datos recibidos: 200120151535;NumSerial;R01_LOGOUT;123; 
+ERR 09:31:46 Error al enviar datos. No hay ninguna fila en la posición 0.
+INF 09:38:23 Datos recibidos: Fecha;NumSerial;R01_LOGIN;123; 
+INF 09:41:11 Datos recibidos: Andres;NumSerial;R01_LOGIN;123; 
+INF 09:42:03 Datos recibidos: Andres;NumSerial;R01_LOGOUT;123; 
+ERR 09:42:03 Error al enviar datos. No hay ninguna fila en la posición 0.
+INF 09:42:14 Datos recibidos: Andres;NumSerial;R01_LOGOUT;123; 
+ERR 09:42:14 Error al enviar datos. No hay ninguna fila en la posición 0.
+INF 09:42:47 Datos recibidos: Andres;NumSerial;R99_LOGOUT;123; 
+ERR 09:43:44 Error al enviar datos. Referencia a objeto no establecida como instancia de un objeto.
+INF 09:48:20 Datos recibidos: Andres;NumSerial;R01_LOGIN;123; 
+INF 09:50:48 Datos recibidos: Andres;NumSerial;R01_LOGIN;123; 
+INF 09:52:02 Datos recibidos: Andres;NumSerial;R01_LOGIN;123; 
+INF 10:32:10 Datos recibidos: Andres;NumSerial;R01_LOGIN;123; 
+INF 10:32:33 Datos recibidos: Andres;NumSerial;R99_LOGOUT;123; 
+INF 10:34:00 Datos recibidos: Andres;NumSerial;R99_LOGOUT;123; 
+INF 10:34:42 Datos recibidos: Andres;NumSerial;R01_LOGINT;123; 
+ERR 10:34:43 Error al enviar datos. No hay ninguna fila en la posición 0.
+INF 10:35:53 Datos recibidos: Andres;NumSerial;R01_LOGIN;123; 
+INF 10:36:10 Datos recibidos: Andres;NumSerial;R01_LOGOUT;123; 
+ERR 10:36:10 Error al enviar datos. No hay ninguna fila en la posición 0.
+INF 10:36:27 Datos recibidos: Andres;NumSerial;R99_LOGOUT;123; 
+INF 10:36:57 Datos recibidos: Andres;NumSerial;R01_LOGIN;123; 
+INF 10:43:21 Datos recibidos: Andres;NumSerial;R99_LOGOUT;123; 
+INF 11:35:45 Datos recibidos: Andres;NumSerial;R01_LOGIN;123; 
+INF 11:36:05 Datos recibidos: Andres;NumSerial;R99_LOGOUT;123; 

@@ -55,10 +55,12 @@ namespace ServicioPPV
                     Campos[i,2] = DT.Rows[i]["OrdenEnTrama"].ToString();
                 }
             }
-
+            
             public string ParametroNombreCampo(int i)
             {
-                return Campos[i, 0].ToString();
+                string Campo;
+                Campo= Campos[i, 0].ToString();
+                return Campo;
             }
             public string ParametroTipoCampo(int i)
             {

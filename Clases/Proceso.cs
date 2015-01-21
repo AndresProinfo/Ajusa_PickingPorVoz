@@ -20,8 +20,6 @@ namespace ServicioPPV
         private String _trama;
         private FMain _padre;
 
-
-
 		/// <summary>
 		/// Constructor
 		/// </summary>
@@ -35,14 +33,20 @@ namespace ServicioPPV
               _padre = padre;
 		}
 
+        public string ValorPosicionTrama(String TXT, String Delimitador, int Posicion)
+        {
+            char[] DelimitadorCadena = { Char.Parse(Delimitador) };
+            string[] Campos = TXT.Split(DelimitadorCadena);
+
+            return Campos[Posicion].ToString();
+        }
         public void Ejecutar()
-        { 
-			    
+        {
+            string mensaje;
                 try
 			    {
                     _padre.RegistroActividad(FMain.Msg_Info, "Datos recibidos: " + _trama.Replace('\0', ' ') , "Proceso");
-				    //Thread.Sleep(5000);
-	            
+				    	            
                     //insertar la trama en la tabla "PPV_tramas_entrada
                     AccesoDatos AD = new AccesoDatos();
                     AD.InsertarTrama(_trama);
@@ -50,20 +54,30 @@ namespace ServicioPPV
                     log.Info("Ejecución del proc. almacenado: " + Tr.QueProcAlmacenado());
                     Tr.CargaParametrosTrama();
                     //hay que recuperar los parametros y tipos de la trama y ejecutar el PA
-                    AD.EjecutaPA(Tr,_trama.Replace('\0',' '));
-
-
-
-
-
-                    _padre.RegistroActividad(FMain.Msg_Info, "Ejecución del Proc. Alm: " + Tr.QueProcAlmacenado());
+                    mensaje = AD.EjecutaPA(Tr,_trama.Replace('\0',' '));
                     
-                    //_sck.Send(Encoding.Default.GetBytes(Tr.QueProcAlmacenado()));
-                    _padre.RegistroActividad(FMain.Msg_Info, "Enviado trama de confirmación. ");
+                    //envio de la trama a la pistola
+                    _sck.Send(Encoding.UTF8.GetBytes(mensaje));
+
+                    if (ValorPosicionTrama(mensaje,";",0)=="OK")
+                    {
+                        if (AD.CambiaStatusIDTramaEnvio(mensaje) == 1)
+                        {
+                            log.Info("Trama enviada correctamente a la pistola " + mensaje);
+                        }
+                        else
+                        {
+                            log.Info("La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio "+mensaje);
+                        }
+                   
+                    }
+                    _padre.RegistroActividad(FMain.Msg_Info, mensaje);
+            
                     _sck.Close();
 			    }
 			    catch (Exception E)
 			    {
+                    log.Error("Error al enviar datos. " + E.Message);
 				    _padre.RegistroActividad(FMain.Msg_Error, "Error al enviar datos. " + E.Message, "Proceso");
 			    }
         }

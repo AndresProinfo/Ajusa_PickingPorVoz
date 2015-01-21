@@ -1,0 +1,188 @@
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Server disconnected
+Closed.
+Error conecting to server. No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 172.16.0.11:10000
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Received message -> [ER,El usuario ya esta logueado con esa pistola (NumSerial);200120151535;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R99_LOGOUT;123;]
+Received message -> [OK,El usuario ha realizado el Logout correctamente;200120151535;NumSerial;R99_LOGOUT;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Received message -> [OK,Usuario logueado correctamente;200120151535;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Received message -> [ER,El usuario ya esta logueado con esa pistola (NumSerial);200120151535;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Received message -> [ER,El usuario ya esta logueado con esa pistola (NumSerial);200120151535;NumSerial;R01_LOGIN;123; ]
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Received message -> [ER,El usuario ya esta logueado con esa pistola (NumSerial);200120151535;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Received message -> [ER,El usuario ya esta logueado con esa pistola (NumSerial);200120151535;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Received message -> [ER,El usuario ya esta logueado con esa pistola (NumSerial);200120151535;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R99_LOGOUT;123;]
+Received message -> [OK,El usuario ha realizado el Logout correctamente;200120151535;NumSerial;R99_LOGOUT;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGIN;123;]
+Received message -> [OK;Usuario logueado correctamente;200120151535;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGOUT;123;]
+Server disconnected
+Closed.
+Connected.
+Server disconnected
+Closed.
+Connected.
+Data sended -> [200120151535;NumSerial;R01_LOGOUT;123;]
+Server disconnected
+Closed.
+Error conecting to server. No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 172.16.0.11:10000
+Connected.
+Data sended -> [Fecha;NumSerial;R01_LOGIN;123;]
+Received message -> [OK;Usuario logueado correctamente;Fecha;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [ER;El usuario ya esta logueado con esa pistola (NumSerial);Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGOUT;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGOUT;123;]
+Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
+Received message -> [OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [ER;El usuario ya esta logueado con esa pistola (NumSerial);Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
+Received message -> [OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
+Received message -> [ER;El Usuario no tiene ninguna sesiÃ³n abierta;Andres;NumSerial;R99_LOGOUT;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGINT;123;]
+Data sended -> [Andres;NumSerial;R01_LOGINT;123;]
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGOUT;123;]
+Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
+Received message -> [OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
+Received message -> [OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R01_LOGIN;123;]
+Received message -> [OK;Usuario logueado correctamente;Andres;NumSerial;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
+Received message -> [OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; ]
+Server disconnected
+Closed.

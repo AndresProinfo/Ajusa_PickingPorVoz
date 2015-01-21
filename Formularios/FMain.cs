@@ -47,6 +47,7 @@ namespace ServicioPPV
                 SCK = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
                 SocketCallbackReceive = new AsyncCallback(OnDataReceived);
+                //accion despues de recibir
                 SocketCallbackEnd = new AsyncCallback(OnDisconnect);
 
                 this.Width = 670;
@@ -385,6 +386,7 @@ namespace ServicioPPV
 					Proceso p = new Proceso(sp.Soc, cmd, this);
                     Thread t = new Thread(new ThreadStart(p.Ejecutar));
                     t.Start();
+
 				}
 			}
 			catch (Exception E)
@@ -396,9 +398,18 @@ namespace ServicioPPV
 		private void OnDisconnect(IAsyncResult asyn)
 		{
 			Socket soc;
-
-			soc = (Socket)asyn.AsyncState;
-			soc.EndDisconnect(asyn);
+            try
+            {
+                if (Estado != ST_Detenido && Estado != ST_Deteniendo)
+                {
+                    soc = (Socket)asyn.AsyncState;
+                    soc.EndDisconnect(asyn);
+                }
+            }
+            catch (Exception E)
+            {
+                RegistroActividad(Msg_Error, "Error al enviar datos de respuesta." + E.Message);
+            }
 		}
 
 		private void CerrarSockets()

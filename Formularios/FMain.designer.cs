@@ -85,7 +85,8 @@
             this.columnHeader2});
             this.lREG.Location = new System.Drawing.Point(-1, 56);
             this.lREG.Name = "lREG";
-            this.lREG.Size = new System.Drawing.Size(668, 420);
+            this.lREG.RightToLeftLayout = true;
+            this.lREG.Size = new System.Drawing.Size(1137, 420);
             this.lREG.SmallImageList = this.iListREG;
             this.lREG.TabIndex = 4;
             this.lREG.UseCompatibleStateImageBehavior = false;
@@ -125,7 +126,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(668, 511);
+            this.ClientSize = new System.Drawing.Size(1134, 511);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lREG);
