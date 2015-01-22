@@ -226,3 +226,43 @@ Data sended -> [Andres;NumSerial;R99_LOGOUT;123;]
 Received message -> [Datos enviados: OK;El usuario ha realizado el Logout correctamente;Andres;NumSerial;R99_LOGOUT;123; ]
 Server disconnected
 Closed.
+Connected.
+Data sended -> [21012015151800;NumSerie;R01_LOGIN;123;]
+Received message -> [Datos enviados: OK;Usuario logueado correctamente;21012015151800;NumSerie;R01_LOGIN;123; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [21012015151800;NumSerie;R01_LOGIN;999;]
+Received message -> [Datos enviados: ER;El usuario no existe;21012015151800;NumSerie;R01_LOGIN;999; ]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [21012015175020;numSerie;R01_LOGIN;123;]
+Received message -> [ER;El usuario ya esta logueado con esa pistola (numSerie);21012015175020;numSerie;R01_LOGIN;123]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [21012015175020;numSerie;R99_LOGOUT;123;]
+Received message -> [OK;El usuario ha realizado el Logout correctamente.;21012015175020;numSerie;R99_LOGOUT;123]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [21012015175020;numSerie;R01_LOGIN;123;]
+Received message -> [ER;El usuario ya esta logueado con esa pistola (numSerie);21012015175020;numSerie;R01_LOGIN;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [21012015175020;numSerie;R99_LOGOUT;123;]
+Received message -> [OK;El usuario ha realizado el Logout correctamente.;21012015175020;numSerie;R99_LOGOUT;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [21012015175020;numSerie;R01_LOGIN;123;]
+Received message -> [OK;Usuario logueado correctamente.;21012015175020;numSerie;R01_LOGIN;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [21012015175020;numSerie;R99_LOGOUT;123;]
+Received message -> [OK;El usuario ha realizado el Logout correctamente.;21012015175020;numSerie;R99_LOGOUT;123;]
+Server disconnected
+Closed.

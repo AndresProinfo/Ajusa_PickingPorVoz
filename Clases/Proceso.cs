@@ -54,7 +54,7 @@ namespace ServicioPPV
                     log.Info("Ejecución del proc. almacenado: " + Tr.QueProcAlmacenado());
                     //Tr.CargaParametrosTrama();
                     //hay que recuperar los parametros y tipos de la trama y ejecutar el PA
-                    mensaje = "Datos enviados: " + AD.EjecutaPA(Tr,_trama.Replace('\0',' '));
+                    mensaje = AD.EjecutaPA(Tr,_trama.Replace('\0',' '));
                     
                     //envio de la trama a la pistola
                     _sck.Send(Encoding.UTF8.GetBytes(mensaje));

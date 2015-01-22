@@ -422,3 +422,48 @@
 2015-01-21 12:17:50,896 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
 2015-01-21 12:17:50,897 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
 2015-01-21 12:17:59,675 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 15:07:30,879 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 15:07:30,901 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 15:07:58,732 [14] ERROR ServicioPPV.Proceso - Error al enviar datos. Índice fuera de los límites de la matriz.
+2015-01-21 15:18:55,798 [3] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 15:19:08,857 [14] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 15:29:45,613 [15] ERROR ServicioPPV.Proceso - Error al enviar datos. Índice fuera de los límites de la matriz.
+2015-01-21 15:31:51,211 [16] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 15:31:51,221 [16] ERROR ServicioPPV.Proceso - Error al enviar datos. Error al convertir el tipo de datos nvarchar a numeric.
+2015-01-21 15:38:02,112 [17] ERROR ServicioPPV.Proceso - Error al enviar datos. Índice fuera de los límites de la matriz.
+2015-01-21 15:38:35,471 [18] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 15:38:35,479 [18] ERROR ServicioPPV.Proceso - Error al enviar datos. Error al convertir el tipo de datos nvarchar a numeric.
+2015-01-21 15:41:12,167 [19] ERROR ServicioPPV.Proceso - Error al enviar datos. Índice fuera de los límites de la matriz.
+2015-01-21 15:42:23,782 [20] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 15:43:46,797 [21] ERROR ServicioPPV.Proceso - Error al enviar datos. Índice fuera de los límites de la matriz.
+2015-01-21 15:44:18,482 [22] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 15:44:59,421 [23] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_CierreSesion
+2015-01-21 15:53:11,767 [24] ERROR ServicioPPV.Proceso - Error al enviar datos. Índice fuera de los límites de la matriz.
+2015-01-21 15:53:44,014 [25] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 15:54:18,504 [26] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 15:54:41,850 [27] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 15:54:58,834 [28] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_CierreSesion
+2015-01-21 15:59:50,533 [29] ERROR ServicioPPV.Proceso - Error al enviar datos. Índice fuera de los límites de la matriz.
+2015-01-21 16:01:27,847 [30] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 16:03:19,850 [10] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 16:03:19,872 [10] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 16:03:52,797 [13] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 16:03:52,808 [13] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;Usuario logueado correctamente;20150121160352;818200210833488670;R01_LOGIN;112;<CR><LF><CR><LF>
+ 
+2015-01-21 16:04:23,433 [15] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_CierreSesion
+2015-01-21 16:04:23,437 [15] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;El usuario ha realizado el Logout correctamente;20150121160423;818200210833488670;R99_LOGOUT;112;<CR><LF><CR><LF>
+ 
+2015-01-21 17:30:54,543 [10] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 17:49:33,257 [8] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-21 17:49:33,282 [8] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-21 17:50:34,797 [11] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 17:50:58,061 [13] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_CierreSesion
+2015-01-21 17:50:58,067 [13] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;El usuario ha realizado el Logout correctamente.;21012015175020;numSerie;R99_LOGOUT;123
+2015-01-21 17:52:59,283 [14] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 17:53:25,771 [15] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_CierreSesion
+2015-01-21 17:53:25,776 [15] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;El usuario ha realizado el Logout correctamente.;21012015175020;numSerie;R99_LOGOUT;123;
+2015-01-21 17:53:38,824 [16] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-21 17:53:38,831 [16] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;Usuario logueado correctamente.;21012015175020;numSerie;R01_LOGIN;123;
+2015-01-21 17:53:49,440 [13] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_CierreSesion
+2015-01-21 17:53:49,444 [13] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;El usuario ha realizado el Logout correctamente.;21012015175020;numSerie;R99_LOGOUT;123;
+2015-01-21 17:53:54,260 [8] INFO ServicioPPV.FMain - Cerrando el servicio de SCK

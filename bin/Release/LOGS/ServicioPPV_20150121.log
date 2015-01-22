@@ -217,3 +217,40 @@ ERR 12:17:59 Error al iniciar la nueva conexión socket.No se puede obtener acce
 Nombre del objeto: 'System.Net.Sockets.Socket'.
 ERR 12:17:59 Error al reiniciar la nueva conexión socket.No se puede obtener acceso al objeto eliminado.
 Nombre del objeto: 'System.Net.Sockets.Socket'.
+INF 15:07:30 Iniciando servicio ...
+INF 15:07:30 ========== Servicio iniciado ==========
+INF 15:07:30 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 15:18:55 Datos enviados: OK;Usuario logueado correctamente;21012015151800;NumSerie;R01_LOGIN;123; 
+INF 15:19:08 Datos enviados: ER;El usuario no existe;21012015151800;NumSerie;R01_LOGIN;999; 
+INF 15:42:23 Datos enviados: OK;Usuario logueado correctamente;20150121154223;818200210833488670;R01_LOGIN;123;<CR><LF><CR><LF>
+ 
+INF 15:44:18 Datos enviados: ER;El usuario ya esta logueado con esa pistola (818200210833488670);20150121154418;818200210833488670;R01_LOGIN;123;<CR><LF><CR><LF>
+ 
+INF 15:44:59 Datos enviados: ER;El Usuario no tiene ninguna sesión abierta;20150121154459;818200210833488670;R99_LOGOUT;null;<CR><LF><CR><LF>
+ 
+INF 15:53:44 Datos enviados: ER;El cod. del usuario no es numerico.;20150121155343;818200210833488670;R01_LOGIN;12AA;<CR><LF><CR><LF>
+ 
+INF 15:54:18 Datos enviados: ER;El usuario no existe;20150121155418;818200210833488670;R01_LOGIN;1234;<CR><LF><CR><LF>
+ 
+INF 15:54:41 Datos enviados: OK;Usuario logueado correctamente;20150121155441;818200210833488670;R01_LOGIN;102;<CR><LF><CR><LF>
+ 
+INF 15:54:58 Datos enviados: ER;El Usuario no tiene ninguna sesión abierta;20150121155458;818200210833488670;R99_LOGOUT;null;<CR><LF><CR><LF>
+ 
+INF 16:01:27 Datos enviados: OK;Usuario logueado correctamente;20150121160127;818200210833488670;R01_LOGIN;109;<CR><LF><CR><LF>
+ 
+INF 16:03:19 Iniciando servicio ...
+INF 16:03:19 ========== Servicio iniciado ==========
+INF 16:03:19 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 16:03:52 OK;Usuario logueado correctamente;20150121160352;818200210833488670;R01_LOGIN;112;<CR><LF><CR><LF>
+ 
+INF 16:04:23 OK;El usuario ha realizado el Logout correctamente;20150121160423;818200210833488670;R99_LOGOUT;112;<CR><LF><CR><LF>
+ 
+INF 17:49:33 Iniciando servicio ...
+INF 17:49:33 ========== Servicio iniciado ==========
+INF 17:49:33 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 17:50:34 ER;El usuario ya esta logueado con esa pistola (numSerie);21012015175020;numSerie;R01_LOGIN;123
+INF 17:50:58 OK;El usuario ha realizado el Logout correctamente.;21012015175020;numSerie;R99_LOGOUT;123
+INF 17:52:59 ER;El usuario ya esta logueado con esa pistola (numSerie);21012015175020;numSerie;R01_LOGIN;123;
+INF 17:53:25 OK;El usuario ha realizado el Logout correctamente.;21012015175020;numSerie;R99_LOGOUT;123;
+INF 17:53:38 OK;Usuario logueado correctamente.;21012015175020;numSerie;R01_LOGIN;123;
+INF 17:53:49 OK;El usuario ha realizado el Logout correctamente.;21012015175020;numSerie;R99_LOGOUT;123;

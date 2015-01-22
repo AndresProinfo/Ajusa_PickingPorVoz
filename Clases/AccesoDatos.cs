@@ -65,7 +65,7 @@ namespace ServicioPPV
             descrip = Dev_Error.Value.ToString();
 
             cn.Close();
-            return estado + ";" + descrip + ";" + CadenaTrama;
+            return estado + ";" + descrip; //+ ";" + CadenaTrama;
 
         }
         public int CambiaStatusIDTramaEnvio(string Trama)
