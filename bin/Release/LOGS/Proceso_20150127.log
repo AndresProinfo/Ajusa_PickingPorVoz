@@ -1,0 +1,14 @@
+INF 15:54:06 Datos recibidos: 2701201515480000;NumSerie;R01_LOGIN;123 
+INF 15:54:28 Datos recibidos: 2701201515480000;NumSerie;R02_CHECK_CARRO;123;0001 
+ERR 15:54:28 Error al enviar datos. No se puede insertar el valor NULL en la columna 'Trama', tabla 'datosajusa.dbo.PPV_Tramas_Envio'. La columna no admite valores NULL. INSERT falla.
+ER, CARRO NO VALIDO
+ 
+Se terminó la instrucción.
+INF 16:51:55 Datos recibidos: 2701201515501000;NumSerie;R03_ORDEN_CARRO;123;0001;2;PED;4444;1;;; 
+INF 16:52:07 Datos recibidos: 2701201515501000;NumSerie;R03_ORDEN_CARRO;123;0001;2;PED;4444;2;;; 
+INF 16:52:17 Datos recibidos: 2701201515501000;NumSerie;R03_ORDEN_CARRO;123;0001;2;PED;4444;3;;; 
+INF 17:12:58 Datos recibidos: 2701201515480000;NumSerie;R01_LOGIN;123 
+INF 17:13:09 Datos recibidos: 2701201515480000;NumSerie;R02_CHECK_CARRO;123;CR0001 
+INF 17:13:53 Datos recibidos: 2701201515501000;NumSerie;R03_ORDEN_CARRO;123;CR0001;1;PED;4444;1;;; 
+INF 17:14:01 Datos recibidos: 2701201515501000;NumSerie;R03_ORDEN_CARRO;123;CR0001;1;PED;4444;2;;; 
+INF 17:14:09 Datos recibidos: 2701201515501000;NumSerie;R03_ORDEN_CARRO;123;CR0001;1;PED;4444;3;;; 

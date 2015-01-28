@@ -1,0 +1,51 @@
+Error conecting to server. No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.16.0.11:10000
+Error conecting to server. No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:10000
+Connected.
+Data sended -> [2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001;]
+Data sended -> [2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001;]
+Data sended -> [2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001;]
+Data sended -> [2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001;]
+Data sended -> [2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001;]
+Data sended -> [2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001;]
+Data sended -> [2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001;]
+Data sended -> [2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001;]
+Data sended -> [2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001;]
+Closed.
+Connected.
+Data sended -> [2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001;]
+Closed.
+Connected.
+Data sended -> [2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;]
+Received message -> [OK;ASIGNACIÃ“N CORRECTA AL CARRO CR0001;2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;0;;IDPi]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;]
+Received message -> [OK;ASIGNACIÃ“N CORRECTA AL CARRO CR0001;2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;0;;IDPincking Nuevo;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;]
+Received message -> [OK;ASIGNACIÃ“N CORRECTA AL CARRO CR0001;2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;0;;;]
+Server disconnected
+Closed.

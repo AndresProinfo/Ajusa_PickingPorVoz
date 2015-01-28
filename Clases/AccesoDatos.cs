@@ -53,7 +53,7 @@ namespace ServicioPPV
             }
                                   
             SqlParameter Dev_Estado = new SqlParameter("@estado",SqlDbType.NVarChar,20);
-            SqlParameter Dev_Error = new SqlParameter("@error", SqlDbType.NVarChar,100);
+            SqlParameter Dev_Error = new SqlParameter("@error", SqlDbType.NVarChar,400);
             Dev_Estado.Direction = ParameterDirection.Output;
             Dev_Error.Direction = ParameterDirection.Output;
             cmd.Parameters.Add(Dev_Estado);

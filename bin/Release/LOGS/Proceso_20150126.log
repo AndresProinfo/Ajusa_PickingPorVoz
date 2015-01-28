@@ -1,0 +1,16 @@
+INF 06:54:05 Datos recibidos: 2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001; 
+ERR 06:54:05 Error al enviar datos. No hay ninguna fila en la posición 0.
+INF 06:56:42 Datos recibidos: 2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001; 
+ERR 06:56:42 Error al enviar datos. No hay ninguna fila en la posición 0.
+INF 06:57:45 Datos recibidos: 2601201506511212;serialnumero:R02_CHECK_CARRO;123;CR0001; 
+ERR 06:57:45 Error al enviar datos. No hay ninguna fila en la posición 0.
+INF 06:58:18 Datos recibidos: 2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001; 
+ERR 07:01:55 Error al enviar datos. Error de desbordamiento aritmético al convertir nvarchar al tipo de datos numeric.
+No se puede insertar el valor NULL en la columna 'Trama', tabla 'datosajusa.dbo.PPV_Tramas_Envio'. La columna no admite valores NULL. INSERT falla.
+Se terminó la instrucción.
+INF 12:47:17 Datos recibidos: 2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001; 
+INF 12:48:58 Datos recibidos: 2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001; 
+INF 15:16:49 Datos recibidos: 2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001; 
+INF 15:18:01 Datos recibidos: 2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001; 
+INF 15:21:26 Datos recibidos: 2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001; 
+INF 15:23:29 Datos recibidos: 2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001; 

@@ -1,0 +1,49 @@
+Connected.
+Data sended -> [2701201515480000;NumSerie;R01_LOGIN;123]
+Received message -> [OK;Usuario logueado correctamente.;2701201515480000;NumSerie;R01_LOGIN;123 ;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2701201515480000;NumSerie;R02_CHECK_CARRO;123;0001]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2701201515501000;NumSerie;R03_ORDEN_CARRO;123;0001;2;PED;4444;1;;;]
+Received message -> [OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2701201515501000;NumSerie;R03_ORDEN_CARRO;123;0001;2;PED;4444;2;;;]
+Received message -> [OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2701201515501000;NumSerie;R03_ORDEN_CARRO;123;0001;2;PED;4444;3;;;]
+Received message -> [OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2701201515480000;NumSerie;R01_LOGIN;123]
+Received message -> [OK;Usuario logueado correctamente.;2701201515480000;NumSerie;R01_LOGIN;123 ;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2701201515480000;NumSerie;R02_CHECK_CARRO;123;CR0001]
+Received message -> [OK;ASIGNACIÃ“N CORRECTA AL CARRO CR0001 ;2701201515480000;NumSerie;R02_CHECK_CARRO;123;CR0001 ;0;;1;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2701201515501000;NumSerie;R03_ORDEN_CARRO;123;CR0001;1;PED;4444;1;;;]
+Received message -> [OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2701201515501000;NumSerie;R03_ORDEN_CARRO;123;CR0001;1;PED;4444;2;;;]
+Received message -> [OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;]
+Server disconnected
+Closed.
+Connected.
+Data sended -> [2701201515501000;NumSerie;R03_ORDEN_CARRO;123;CR0001;1;PED;4444;3;;;]
+Received message -> [OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;]
+Server disconnected
+Closed.

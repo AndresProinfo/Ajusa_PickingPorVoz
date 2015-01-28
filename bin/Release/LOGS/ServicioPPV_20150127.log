@@ -1,0 +1,25 @@
+INF 15:47:15 Iniciando servicio ...
+INF 15:47:15 ========== Servicio iniciado ==========
+INF 15:47:15 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 15:47:15 Iniciando servicio ...
+INF 15:47:15 ========== Servicio iniciado ==========
+INF 15:47:15 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+ERR 15:47:15 Error al iniciar la nueva conexión socket.No se devolvió el objeto IAsyncResult desde el método asincrónico correspondiente de esta clase.
+Nombre del parámetro: asyncResult
+INF 15:47:22 Cerrando el servicio ...
+INF 15:47:22 Servicio Cerrado ...
+INF 15:47:23 Iniciando servicio ...
+INF 15:47:23 ========== Servicio iniciado ==========
+INF 15:47:23 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 15:54:11 OK;Usuario logueado correctamente.;2701201515480000;NumSerie;R01_LOGIN;123 ;
+INF 16:50:56 Iniciando servicio ...
+INF 16:50:56 ========== Servicio iniciado ==========
+INF 16:50:56 Servidor socket iniciado en la IP: 172.16.0.11 puerto: 10000
+INF 16:51:55 OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;
+INF 16:52:07 OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;
+INF 16:52:17 OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;
+INF 17:12:58 OK;Usuario logueado correctamente.;2701201515480000;NumSerie;R01_LOGIN;123 ;
+INF 17:13:09 OK;ASIGNACIÓN CORRECTA AL CARRO CR0001 ;2701201515480000;NumSerie;R02_CHECK_CARRO;123;CR0001 ;0;;1;
+INF 17:13:53 OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;
+INF 17:14:01 OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;
+INF 17:14:09 OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;

@@ -467,3 +467,78 @@
 2015-01-21 17:53:49,440 [13] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_CierreSesion
 2015-01-21 17:53:49,444 [13] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;El usuario ha realizado el Logout correctamente.;21012015175020;numSerie;R99_LOGOUT;123;
 2015-01-21 17:53:54,260 [8] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-23 09:55:02,556 [1] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-23 09:55:02,583 [1] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-23 09:56:39,533 [6] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Comprobar_Carro
+2015-01-23 09:56:39,541 [6] ERROR ServicioPPV.Proceso - Error al enviar datos. Error de desbordamiento aritmético al convertir nvarchar al tipo de datos numeric.
+No se puede insertar el valor NULL en la columna 'Trama', tabla 'datosajusa.dbo.PPV_Tramas_Envio'. La columna no admite valores NULL. INSERT falla.
+Se terminó la instrucción.
+2015-01-26 06:49:20,520 [10] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-26 06:49:20,551 [10] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-26 06:54:05,742 [6] ERROR ServicioPPV.Proceso - Error al enviar datos. No hay ninguna fila en la posición 0.
+2015-01-26 06:56:38,545 [10] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-26 06:56:39,427 [10] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-26 06:56:39,428 [10] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-26 06:56:42,450 [6] ERROR ServicioPPV.Proceso - Error al enviar datos. No hay ninguna fila en la posición 0.
+2015-01-26 06:57:13,313 [10] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-26 06:57:14,371 [10] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-26 06:57:14,371 [10] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-26 06:57:45,043 [8] ERROR ServicioPPV.Proceso - Error al enviar datos. No hay ninguna fila en la posición 0.
+2015-01-26 06:57:55,817 [10] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-26 06:57:56,408 [10] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-26 06:57:56,409 [10] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-26 07:00:09,440 [13] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Comprobar_Carro
+2015-01-26 07:01:53,963 [13] ERROR ServicioPPV.Proceso - Error al enviar datos. Error de desbordamiento aritmético al convertir nvarchar al tipo de datos numeric.
+No se puede insertar el valor NULL en la columna 'Trama', tabla 'datosajusa.dbo.PPV_Tramas_Envio'. La columna no admite valores NULL. INSERT falla.
+Se terminó la instrucción.
+2015-01-26 12:47:03,372 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-26 12:47:03,393 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-26 12:47:17,596 [14] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Comprobar_Carro
+2015-01-26 12:47:20,980 [14] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;ASIGNACIÓN CORRECTA AL CARRO CR0001;2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;0;;IDPi
+2015-01-26 12:48:49,599 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-26 12:48:49,620 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-26 12:48:58,346 [14] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Comprobar_Carro
+2015-01-26 15:16:39,903 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-26 15:16:39,923 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-26 15:16:49,284 [14] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Comprobar_Carro
+2015-01-26 15:17:55,774 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-26 15:17:55,794 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-26 15:18:01,792 [14] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Comprobar_Carro
+2015-01-26 15:21:20,896 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-26 15:21:20,916 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-26 15:21:26,624 [14] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Comprobar_Carro
+2015-01-26 15:21:31,682 [14] INFO ServicioPPV.Proceso - Trama enviada correctamente a la pistola OK;ASIGNACIÓN CORRECTA AL CARRO CR0001;2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;0;;IDPincking Nuevo;
+2015-01-26 15:23:29,460 [15] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Comprobar_Carro
+2015-01-26 15:23:31,084 [15] INFO ServicioPPV.Proceso - Trama enviada correctamente a la pistola OK;ASIGNACIÓN CORRECTA AL CARRO CR0001;2601201506511212;serialnumero;R02_CHECK_CARRO;123;CR0001;0;;;
+2015-01-27 15:47:15,277 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-27 15:47:15,297 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-27 15:47:15,313 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-27 15:47:15,313 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-27 15:47:22,582 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-27 15:47:23,458 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-27 15:47:23,460 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-27 15:54:06,789 [14] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-27 15:54:11,989 [14] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;Usuario logueado correctamente.;2701201515480000;NumSerie;R01_LOGIN;123 ;
+2015-01-27 15:54:28,910 [10] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Comprobar_Carro
+2015-01-27 15:54:28,921 [10] ERROR ServicioPPV.Proceso - Error al enviar datos. No se puede insertar el valor NULL en la columna 'Trama', tabla 'datosajusa.dbo.PPV_Tramas_Envio'. La columna no admite valores NULL. INSERT falla.
+ER, CARRO NO VALIDO
+ 
+Se terminó la instrucción.
+2015-01-27 16:50:56,547 [9] INFO ServicioPPV.FMain - Arrancando el servicio de SCK
+2015-01-27 16:50:56,567 [9] INFO ServicioPPV.FMain - Cerrando el servicio de SCK
+2015-01-27 16:51:55,426 [14] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Asignar_Trabajo_Carro
+2015-01-27 16:51:55,437 [14] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;
+2015-01-27 16:52:07,497 [15] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Asignar_Trabajo_Carro
+2015-01-27 16:52:07,500 [15] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;
+2015-01-27 16:52:17,679 [16] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Asignar_Trabajo_Carro
+2015-01-27 16:52:17,681 [16] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;
+2015-01-27 17:12:58,284 [18] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Inicio_sesion
+2015-01-27 17:12:58,287 [18] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;Usuario logueado correctamente.;2701201515480000;NumSerie;R01_LOGIN;123 ;
+2015-01-27 17:13:09,304 [16] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Comprobar_Carro
+2015-01-27 17:13:09,314 [16] INFO ServicioPPV.Proceso - Trama enviada correctamente a la pistola OK;ASIGNACIÓN CORRECTA AL CARRO CR0001 ;2701201515480000;NumSerie;R02_CHECK_CARRO;123;CR0001 ;0;;1;
+2015-01-27 17:13:53,806 [15] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Asignar_Trabajo_Carro
+2015-01-27 17:13:53,813 [15] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;
+2015-01-27 17:14:01,428 [14] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Asignar_Trabajo_Carro
+2015-01-27 17:14:01,431 [14] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;
+2015-01-27 17:14:09,796 [10] INFO ServicioPPV.Proceso - Ejecución del proc. almacenado: PPV_Asignar_Trabajo_Carro
+2015-01-27 17:14:09,800 [10] INFO ServicioPPV.Proceso - La trama de confirmación no ha podido actualizarse a Status=3 en PPV_Tramas_Envio OK;Pedido asociado correctamente;2701201515501000;NumSerie;R03_ORDEN_CARRO;123;
